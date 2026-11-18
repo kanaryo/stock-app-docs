@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xml:lang="en-US">
+  <title>Kanai Stock App Operations Guide</title>
+
+  <!-- 製品名を変数として定義（keyref） -->
+  <keydef keys="product">
+    <topicmeta>
+      <keywords>
+        <keyword>Kanai Stock App</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+
+  <!-- 目次 -->
+  <topicref href="topics/c_architecture.dita">
+    <topicref href="topics/t_deploy.dita"/>
+    <topicref href="topics/r_env_vars.dita"/>
+  </topicref>
+</map>
