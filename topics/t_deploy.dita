@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_deploy">
+  <title>Deploying a new version</title>
+  <shortdesc>Deploy the latest build of <keyword keyref="product"/> to production.</shortdesc>
+  <taskbody>
+    <prereq>
+      <p>You have SSH access to the production server.</p>
+    </prereq>
+    <context>
+      <note conref="../common/shared.dita#shared/cost-note"/>
+    </context>
+    <steps>
+      <step>
+        <cmd>Pull the latest code from the main branch.</cmd>
+        <info><codeblock>git pull origin main</codeblock></info>
+      </step>
+      <step>
+        <cmd>Build and restart the containers.</cmd>
+        <info><codeblock>docker compose up -d --build</codeblock></info>
+      </step>
+      <step audience="internal">
+        <cmd>Check the server logs for errors.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>The new version is available at the production URL.</p>
+    </result>
+  </taskbody>
+</task>

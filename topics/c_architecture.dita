@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_architecture">
+  <title>System architecture</title>
+  <shortdesc><keyword keyref="product"/> runs on AWS and is served over HTTPS.</shortdesc>
+  <conbody>
+    <p>The application consists of the following components:</p>
+    <ul>
+      <li><b>Web server</b>: Hosts the application and handles requests.</li>
+      <li><b>Database</b>: Stores portfolio and price data.</li>
+      <li><b>DNS and TLS</b>: Routes traffic to the custom domain over HTTPS.</li>
+    </ul>
+    <p>Infrastructure is being migrated to Terraform, with CloudFront planned as the CDN layer.</p>
+  </conbody>
+</concept>

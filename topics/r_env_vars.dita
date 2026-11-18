@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_env_vars">
+  <title>Environment variables</title>
+  <shortdesc>Variables required to run <keyword keyref="product"/>.</shortdesc>
+  <refbody>
+    <properties>
+      <prophead>
+        <proptypehd>Name</proptypehd>
+        <propvaluehd>Example</propvaluehd>
+        <propdeschd>Description</propdeschd>
+      </prophead>
+      <property>
+        <proptype>DB_HOST</proptype>
+        <propvalue>localhost</propvalue>
+        <propdesc>Database host name.</propdesc>
+      </property>
+      <property>
+        <proptype>APP_ENV</proptype>
+        <propvalue>production</propvalue>
+        <propdesc>Runtime environment.</propdesc>
+      </property>
+    </properties>
+  </refbody>
+</reference>
