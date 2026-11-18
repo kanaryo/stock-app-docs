@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="shared">
-  <title>Shared content</title>
+<topic id="shared" xml:lang="ja-JP">
+  <title>共通コンテンツ</title>
   <body>
-    <note id="cost-note" type="important">Running resources on AWS incurs charges. Stop unused resources after testing.</note>
+    <note id="cost-note" type="important">AWSのリソースは稼働中に料金が発生します。検証が終わったら、使わないリソースを停止してください。</note>
   </body>
 </topic>

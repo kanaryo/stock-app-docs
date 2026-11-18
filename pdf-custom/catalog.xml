@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+  <uri name="cfg:fo/font-mappings.xml" uri="fo/font-mappings.xml"/>
+</catalog>

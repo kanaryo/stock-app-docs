@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map xml:lang="en-US">
-  <title>Kanai Stock App Operations Guide</title>
+<map xml:lang="ja-JP">
+  <title>Kanai Stock App 運用ガイド</title>
 
   <!-- 製品名を変数として定義（keyref） -->
   <keydef keys="product">

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="c_architecture">
-  <title>System architecture</title>
-  <shortdesc><keyword keyref="product"/> runs on AWS and is served over HTTPS.</shortdesc>
+<concept id="c_architecture" xml:lang="ja-JP">
+  <title>システム構成</title>
+  <shortdesc><keyword keyref="product"/>はAWS上で稼働し、HTTPSで配信されます。</shortdesc>
   <conbody>
-    <p>The application consists of the following components:</p>
+    <p>このアプリケーションは、次のコンポーネントで構成されています。</p>
     <ul>
-      <li><b>Web server</b>: Hosts the application and handles requests.</li>
-      <li><b>Database</b>: Stores portfolio and price data.</li>
-      <li><b>DNS and TLS</b>: Routes traffic to the custom domain over HTTPS.</li>
+      <li><b>Webサーバー</b>：アプリケーションを動かし、リクエストを処理します。</li>
+      <li><b>データベース</b>：ポートフォリオと株価のデータを保存します。</li>
+      <li><b>DNSとTLS</b>：独自ドメインへのアクセスを、HTTPSで振り分けます。</li>
     </ul>
-    <p>Infrastructure is being migrated to Terraform, with CloudFront planned as the CDN layer.</p>
+    <p>インフラはTerraformへの移行を進めており、CDNとしてCloudFrontの導入を予定しています。</p>
   </conbody>
 </concept>
