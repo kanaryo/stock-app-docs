@@ -6,6 +6,9 @@ DITA Open Toolkit（DITA-OT）を使い、1つのソースから HTML5 と PDF�
 
 > A sample DITA XML project that documents a personal stock portfolio app, built with DITA Open Toolkit into HTML5 and PDF (Japanese).
 
+## 運用ガイド（PDF）
+📄 **[stock-app 運用ガイドを見る（PDF）](samples/stock-app.pdf)**
+
 ## このプロジェクトで扱っていること
 
 | 項目 | 内容 | 該当ファイル |
