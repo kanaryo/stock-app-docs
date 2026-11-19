@@ -1,6 +1,6 @@
 # stock-app-docs
 
-個人開発の株式ポートフォリオアプリ「Kanai Stock App」の運用ドキュメントを、**DITA XML** で構造化して書いたサンプルプロジェクトです。
+個人開発の株式ポートフォリオアプリ[「Kanai Stock App」](https://github.com/kanaryo/stock-app)の運用ドキュメントを、**DITA XML** で構造化して書いたサンプルプロジェクトです。
 
 DITA Open Toolkit（DITA-OT）を使い、1つのソースから HTML5 と PDF、社内向けと社外向けの版を出力します。
 
