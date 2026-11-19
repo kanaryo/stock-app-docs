@@ -19,6 +19,12 @@
         <cmd>コンテナをビルドし、再起動します。</cmd>
         <info><codeblock>docker compose up -d --build</codeblock></info>
       </step>
+      <step>
+        <cmd>コンテナの状態を確認します。</cmd>
+        <info>
+          <codeblock id="codeblock_uzh_wnv_glc">docker compose ps</codeblock>
+        </info>
+      </step>
       <step audience="internal">
         <cmd>サーバーのログにエラーがないか確認します。</cmd>
       </step>
